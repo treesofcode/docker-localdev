@@ -1,0 +1,37 @@
+version: '3.9'
+services:
+  apache:
+    image: httpd:latest
+    container_name: my-apache-app
+    ports:
+    - '8080:80'
+    volumes:
+    - ./website:/usr/local/apache2/htdocs
+    - ./website/images:/usr/local/apache2/htdocs/images
+
+  apache2:
+    image: httpd:latest
+    container_name: pcservicesite
+    ports:
+    - '8081:80'
+    volumes:
+    - ./website2:/usr/local/apache2/htdocs
+    - ./website2/images:/usr/local/apache2/htdocs/images
+
+  apache3:
+    image: httpd:latest
+    container_name: csstesting
+    ports:
+    - '8082:80'
+    volumes:
+    - ./website3:/usr/local/apache2/htdocs
+    - ./website3/images:/usr/local/apache2/htdocs/images
+
+  apache4:
+    image: httpd:latest
+    container_name: csslayout
+    ports:
+    - '8083:80'
+    volumes:
+    - ./website4:/usr/local/apache2/htdocs
+    - ./website4/images:/usr/local/apache2/htdocs/images

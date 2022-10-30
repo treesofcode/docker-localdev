@@ -1,0 +1,70 @@
+html { 
+    background-color: rgb(223, 223, 223);
+    /* margin-left: 250px;
+    margin-right: 250px;*/
+}
+
+.header {
+    padding: 8px;
+    text-align: center;
+    background: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(157, 157, 157);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 14px 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: rgb(77, 92, 192);
+  }
+
+.content {
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 20px;
+    position: relative;
+    top: -150px;
+}
+
+#toplogo {
+    width: 350px;
+    height: 100px;
+}
+
+#pcfix {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: -175px;
+}
+
+#topsubtitle {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form {
+    text-align: left;
+    margin-right: 1600px;
+}

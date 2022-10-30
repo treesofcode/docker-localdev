@@ -1,0 +1,47 @@
+html {
+  background-color: rgb(19, 19, 19);
+  margin: 200px;
+}
+
+.header {
+  padding:5px;
+  text-align: center;
+  background: #212020;
+  color: white;
+  font-size: 20px;
+  background-image: url(/images/dark-forest.-wallpaper_.jpg);
+  background-size: cover;
+}
+
+body {
+  color: green;
+}
+
+p {
+  margin: 35px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(35, 35, 35);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: rgb(0, 0, 0);
+}
